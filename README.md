@@ -52,11 +52,20 @@ So you can just run `cat` or [bat](https://github.com/sharkdp/bat) to see all yo
 cat solution.yaml
 ```
 
-### Next Days
+## Next Days
 
 I let a "default" `next_day.rs` file for the next days, so you can just copy and paste it in the same `bin` folder.  
 You only need to rename it properly, like `day_02.rs`, etc.  
 Don't forget to update the `CURRENT_DAY` constant in the new file.
+
+## License
+
+All code in this repository is dual-licensed under either:
+
+* MIT License ([LICENSE-MIT](LICENSE-MIT) or [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT))
+* Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0))
+
+at your option. This means you can select the license you prefer! This dual-licensing approach is the de-facto standard in the Rust ecosystem 
 
 ---
 
