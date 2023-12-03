@@ -23,20 +23,20 @@ Don't forget to also add the module inside the `lib.rs` file.
 
 ## Visual Tree
 
-.
-├── Cargo.lock
-├── Cargo.toml
-├── README.md                   # you are here
-├── solution.yaml               # your solution will be stored here
-└── src
-    ├── advent.rs               # nothing to see here
-    ├── day_01
-    │   ├── input
-    │   │   ├── puzzle.txt      # insert the puzzle input here
-    │   │   ├── test_1.txt      # insert the part 1 example input here (optional)
-    │   │   └── test_2.txt      # insert the part 2 example input here (optional)
-    │   ├── mod.rs              # nothing to see here
-    │   ├── part_1.rs           # insert your solution here || insert the exemple's expected output (optional)
-    │   └── part_2.rs           # insert your solution here || insert the exemple's expected output (optional)
-    ├── lib.rs                  # add the new module here
-    └── main.rs                 # add new days here
+.  
+├── Cargo.lock  
+├── Cargo.toml  
+├── README.md                   -> you are here  
+├── solution.yaml               -> your solution will be stored here  
+└── src  
+    ├── advent.rs               -> nothing to see here  
+    ├── day_01  
+    │   ├── input  
+    │   │   ├── puzzle.txt      -> insert the puzzle input  
+    │   │   ├── test_1.txt      -> insert the part 1 example input (optional)  
+    │   │   └── test_2.txt      -> insert the part 2 example input (optional)  
+    │   ├── mod.rs              -> nothing to see here  
+    │   ├── part_1.rs           -> insert your solution || exemple's expected output (optional)  
+    │   └── part_2.rs           -> insert your solution || exemple's expected output (optional)  
+    ├── lib.rs                  -> add new days module  
+    └── main.rs                 -> add new days to the match statement  
