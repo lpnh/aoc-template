@@ -19,7 +19,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         Some(day) => {
             match day.as_str() {
                 "day01" => day_01::x_mas()?,
-                // "day02" => day_02::run()?,
+                // "day02" => day_02::x_mas()?,
                 // ... other days
                 _ => return Err("Invalid day".into()),
             }
