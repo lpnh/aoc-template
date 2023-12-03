@@ -4,7 +4,7 @@ use aoc_23_with_rust::*; // you can ignore this too
 
 use std::error::Error;
 
-const CURRENT_DAY: Day = Day::Day07; // update this with the current day
+const CURRENT_DAY: Day = Day::Day01; // update this with the current day
 
 fn solve_part_1(input: &str) -> Result<String, Box<dyn Error>> {
     // your solution to part 1 goes here.
