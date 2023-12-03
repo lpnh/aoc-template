@@ -2,7 +2,7 @@
 
 use aoc_23_with_rust::*;
 
-use anyhow::{Result, Error};
+use anyhow::{Error, Result};
 
 const CURRENT_DAY: Day = Day::Day01;
 

@@ -1,7 +1,7 @@
 #![allow(clippy::items_after_test_module)] // you can ignore this
 
-use aoc_23_with_rust::*; // you can ignore this too
-use anyhow::{Result, Error}; // and also this
+use anyhow::{Error, Result};
+use aoc_23_with_rust::*; // you can ignore this too // and also this
 
 /// Update this with the current day
 const CURRENT_DAY: Day = Day::Day01;
@@ -22,7 +22,7 @@ const CURRENT_DAY: Day = Day::Day01;
 ///     Ok(result)
 /// }
 /// ```
-/// 
+///
 /// Please don't change the function name nor the signature.
 fn solve_part_1(input: &str) -> Result<String, Error> {
     // your solution to part 1 goes here.
@@ -45,7 +45,7 @@ fn solve_part_1(input: &str) -> Result<String, Error> {
 ///     Ok(result)
 /// }
 /// ```
-/// 
+///
 /// Please don't change the function name nor the signature.
 fn solve_part_2(input: &str) -> Result<String, Error> {
     // your solution to part 2 goes here.

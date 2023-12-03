@@ -1,3 +1,4 @@
+use anyhow::{Error, Result};
 use serde::{Deserialize, Serialize};
 use std::{
     collections::HashMap,
@@ -5,7 +6,6 @@ use std::{
     fmt::{self, Display, Formatter},
 };
 use std::{fs, path::Path};
-use anyhow::{Result, Error};
 
 #[derive(Serialize, Deserialize, Debug, Default, PartialEq, Eq, Clone)]
 struct Solution {

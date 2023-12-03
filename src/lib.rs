@@ -1,7 +1,7 @@
 //! Advent of Code 2023
-//! 
+//!
 //! Let ~~rust~~ elves do the work for you!
-//! 
+//!
 //! 🎄 Happy Coding! 🎄
 mod advent;
 pub use advent::{Advent, Day, SantaPackage};
@@ -9,12 +9,10 @@ pub use advent::{Advent, Day, SantaPackage};
 /// ✨ macro magic acting as a placeholder for your awesome solution ✨
 #[macro_export]
 macro_rules! good_luck {
-    ($input:ident) => {
-        {
-            let _ = &$input;
-            Ok("".to_string())
-        }
-    };
+    ($input:ident) => {{
+        let _ = &$input;
+        Ok("".to_string())
+    }};
 }
 
 /// ✨ macro magic to test your solutions ✨
