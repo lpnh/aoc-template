@@ -1,7 +1,7 @@
 # Advent of Code 2023
 
 A template for the [Advent of Code](https://adventofcode.com/) 2023.  
-*Let the elves do the hard work for you!*
+*Let ~~rust~~ the elves do the hard work for you!*
 
 ## Usage
 
