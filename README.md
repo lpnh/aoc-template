@@ -54,7 +54,7 @@ cat solution.yaml
 
 ## Next Days
 
-A "default" `next_day.rs` file is provided for subsequent days, so you can just copy and paste it in the same `bin` folder.  
+A "default" `next_day.rs` file without documentation and comments is provided for subsequent days, so you can just copy and paste it in the same `bin` folder.  
 Simply rename it appropriately, for example, as`day_02.rs`, etc.  
 Don't forget to update the `CURRENT_DAY` constant in the new file.
 

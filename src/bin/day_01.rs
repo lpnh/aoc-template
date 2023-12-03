@@ -1,28 +1,58 @@
 #![allow(clippy::items_after_test_module)] // you can ignore this
 
 use aoc_23_with_rust::*; // you can ignore this too
+use anyhow::{Result, Error}; // and also this
 
-use std::error::Error;
+/// Update this with the current day
+const CURRENT_DAY: Day = Day::Day01;
 
-const CURRENT_DAY: Day = Day::Day01; // update this with the current day
-
-fn solve_part_1(input: &str) -> Result<String, Box<dyn Error>> {
+/// The function is expecting you to return a `Result<String, anyhow::Error>`.
+/// This means that you can return an `Ok(String)` or an `Err(anyhow::Error)`.
+/// The easiest way to achieve this is to simply wrap your solution in an `Ok`:
+/// ```
+/// fn answer_to_ultimate_question() -> Result<String, Error> {
+///     let result = "42".to_string();
+///     Ok(result)
+/// }
+/// ```
+/// and use `?` to propagate any potential errors:
+/// ```
+/// fn answer_to_ultimate_question() -> Result<i32, Error> {
+///     let result = "42".parse::<i32>()?;
+///     Ok(result)
+/// }
+/// ```
+/// 
+/// Please don't change the function name nor the signature.
+fn solve_part_1(input: &str) -> Result<String, Error> {
     // your solution to part 1 goes here.
-    let _ = input;
-    let todo = "".to_string();
-    Ok(todo)
-    // good luck! :)
+    good_luck!(input)
 }
 
-fn solve_part_2(input: &str) -> Result<String, Box<dyn Error>> {
+/// The function is expecting you to return a `Result<String, anyhow::Error>`.
+/// This means that you can return an `Ok(String)` or an `Err(anyhow::Error)`.
+/// The easiest way to achieve this is to simply wrap your solution in an `Ok`:
+/// ```
+/// fn answer_to_ultimate_question() -> Result<String, Error> {
+///     let result = "42".to_string();
+///     Ok(result)
+/// }
+/// ```
+/// and use `?` to propagate any potential errors:
+/// ```
+/// fn answer_to_ultimate_question() -> Result<i32, Error> {
+///     let result = "42".parse::<i32>()?;
+///     Ok(result)
+/// }
+/// ```
+/// 
+/// Please don't change the function name nor the signature.
+fn solve_part_2(input: &str) -> Result<String, Error> {
     // your solution to part 2 goes here.
-    let _ = input;
-    let todo = "".to_string();
-    Ok(todo)
-    // good luck! :)
+    good_luck!(input)
 }
 
-// Optional: use this to test your solutions.
+/// Optional: use this to test your solutions.
 #[cfg(test)]
 mod tests {
 
@@ -65,8 +95,9 @@ mod tests {
     }
 }
 
-// simply run `cargo run --bin <day>` and check the answer inside `solution.yaml`
-fn main() -> Result<(), Box<dyn Error>> {
+/// You don't need to do anything in the main function.
+/// Simply run `cargo run --bin <day>` and check the answer inside `solution.yaml`
+fn main() -> Result<(), Error> {
     let mut advent = Advent::ho_ho_ho()?;
 
     advent.get_package(elf_magic!())?;
