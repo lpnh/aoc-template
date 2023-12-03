@@ -27,7 +27,7 @@ fn solve_part_2(input: &str) -> Result<String, Box<dyn Error>> {
 mod tests {
 
     use super::*;
-    
+
     #[test]
     fn check_part_1_solution() {
         const EXAMPLE_1: &str = r#"
@@ -45,7 +45,7 @@ mod tests {
 
         elf_test_this!(EXAMPLE_1, solve_part_1, EXPECTED_ANSWER_1); // run `cargo test` and let the elves do the rest
     }
-    
+
     #[test]
     fn check_part_2_solution() {
         const EXAMPLE_2: &str = r#"

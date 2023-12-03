@@ -42,4 +42,3 @@ macro_rules! elf_magic {
         }
     };
 }
-

@@ -96,7 +96,11 @@ impl Display for Day {
 
 impl Display for Solution {
     fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {
-        write!(f, "Solution:\nPart_1: {:?}\nPart_2: {:?}", self.part_1, self.part_2)
+        write!(
+            f,
+            "Solution:\nPart_1: {:?}\nPart_2: {:?}",
+            self.part_1, self.part_2
+        )
     }
 }
 
