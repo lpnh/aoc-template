@@ -41,9 +41,9 @@ mod tests {
 
         const EXPECTED_ANSWER_1: &str = ""; // update this with the expected answer
 
-        // that's it! run `cargo test` and let the elves do the rest
+        // that's it! run `cargo test --bin <day>` and let the elves do the rest
 
-        elf_test_this!(EXAMPLE_1, solve_part_1, EXPECTED_ANSWER_1); // run `cargo test` and let the elves do the rest
+        elf_test_this!(EXAMPLE_1, solve_part_1, EXPECTED_ANSWER_1);
     }
 
     #[test]
@@ -59,13 +59,13 @@ mod tests {
 
         const EXPECTED_ANSWER_2: &str = ""; // update this with the expected answer
 
-        // that's it! run `cargo test` and let the elves do the rest
+        // that's it! run `cargo test --bin <day>` and let the elves do the rest
 
         elf_test_this!(EXAMPLE_2, solve_part_2, EXPECTED_ANSWER_2);
     }
 }
 
-// simply run `cargo run` and check the answer inside `solution.yaml`
+// simply run `cargo run --bin <day>` and check the answer inside `solution.yaml`
 fn main() -> Result<(), Box<dyn Error>> {
     let mut advent = Advent::ho_ho_ho()?;
 
@@ -74,7 +74,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-// Puzzle input
+// Puzzle Input
 const PUZZLE_INPUT: &str = r#"
     puzzle input goes here
     note: you can use indented

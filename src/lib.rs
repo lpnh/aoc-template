@@ -21,6 +21,7 @@ pub fn _fmt(raw_str: &str) -> String {
         .join("\n")
 }
 
+// macro magic to test solutions
 #[macro_export]
 macro_rules! elf_test_this {
     ($input:expr, $solver:expr, $expected:expr) => {
