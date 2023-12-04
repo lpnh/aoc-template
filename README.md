@@ -17,7 +17,7 @@ const PUZZLE_INPUT: &str = include_str!("../../puzzle_input/day_07.txt");
 Write your solution for Part One and Part Two in the `solve_part_1` and `solve_part_2` functions, respectively.
 
 The function is expecting you to return `Result<String, anyhow::Error>`.
-This means that you can return `Ok(String)` or an `Err(anyhow::Error)`.
+This means that you can return either `Ok(String)` or `Err(anyhow::Error)`.
 The easiest way to achieve this is to simply wrap your solution with `Ok`:
 
 ```rust
@@ -42,9 +42,9 @@ Note: The code compiles right from the start. This means you can try to test and
 
 ### Testing (Optional)
 
-With the provided examples, you can run a test for your solutions if you wish.
+With the provided examples, you can run a test for your solutions if you want to.
 
-Inside the `tests` module, you can find the `check_part_1_solution` and `check_part_2_solution` functions.
+Inside the `tests` module, you can find the `check_part_1` and `check_part_2` functions.
 
 Update `EXAMPLE_1` or `EXAMPLE_2` constant and the respective `EXPECTED_ANSWER_1` or `EXPECTED_ANSWER_2` to match the example for each part. Example:
 
