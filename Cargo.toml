@@ -1,6 +1,6 @@
 [package]
-name = "aoc-23-with-rust"
-version = "0.2.2"
+name = "aoc-template"
+version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 readme = "README.md"

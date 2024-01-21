@@ -1,6 +1,6 @@
-# Advent of Code 2023
+# Advent of Code Template
 
-A template for the [Advent of Code](https://adventofcode.com/) 2023.  
+A Rust template for the [Advent of Code](https://adventofcode.com/).  
 *Let ~~Rust~~ elves do the hard work for you!*
 
 ## Usage
